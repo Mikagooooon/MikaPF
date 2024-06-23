@@ -1,0 +1,219 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background-image: url("PFpicture/PF背景.png");
+  background-size: cover;
+}
+
+a:link {
+  color: #543f32;
+}
+
+a:visited {
+  color: #543f32;
+}
+
+.Mikagon {
+  font-size: 35px;
+  font-family: "Playfair Display", serif;
+}
+
+.header {
+  width: 100%;
+  height: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.header-content {
+  width: 90%;
+  height: 70px;
+}
+
+.nav-list {
+  text-align: right;
+  margin: 0 auto;
+  font-family: "Playfair Display", serif;
+}
+
+.nav-list-item {
+  list-style: none;
+  display: inline-block;
+  margin: 0 20px;
+}
+
+.main {
+  width: 100%;
+  height: 500px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.main-content {
+  width: 70%;
+  height: 400px;
+}
+
+.name {
+  width: 100%;
+  height: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: baseline;
+  flex-wrap: wrap;
+  color: #543f32;
+}
+
+.name1 {
+  font-size: 70px;
+  font-family: "Playfair Display", serif;
+}
+
+.name2 {
+  margin-left: 20px;
+  font-size: 30px;
+  font-family: "Klee One", cursive;
+}
+
+.hobby {
+  width: 100%;
+  height: 1200px;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.hobby-item {
+  width: 90%;
+  height: 350px;
+  display: flex;
+  justify-content: left;
+  margin-top: 100px;
+}
+
+.hobby-item2 {
+  width: 90%;
+  height: 350px;
+  display: flex;
+  justify-content: right;
+}
+
+.hobby-img {
+  width: 300px;
+  height: 350px;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+.hobby-p-box {
+  display: flex;
+  justify-content: left;
+  flex-wrap: wrap;
+}
+
+.hobby--p {
+  width: 100%;
+  font-family: "Klee One", cursive;
+  color: #543f32;
+  font-weight: bold;
+}
+
+.hobby-p {
+  width: 675px;
+  height: 350px;
+  font-family: "Klee One", cursive;
+}
+
+.point-p {
+  font-size: 50px;
+  height: 100px;
+  margin-left: 100px;
+  display: flex;
+  align-items: center;
+  font-family: "Klee One", cursive;
+  color: #543f32;
+  font-weight: bold;
+}
+
+.point {
+  width: 100%;
+  height: 900px;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  padding-top: 30px;
+}
+
+.point-box {
+  width: 50%;
+  height: 120px;
+  margin: 10px;
+}
+
+.point-box1 {
+  width: 50%;
+  height: 100px;
+  margin: 10px;
+}
+
+.point1 {
+  font-size: 25px;
+  font-family: "Klee One", cursive;
+  color: #543f32;
+  font-weight: bold;
+}
+
+.point2 {
+  font-size: 15px;
+  font-family: "Klee One", cursive;
+  background: rgba(157, 137, 108, 0.3);
+}
+
+.page_top {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  padding: 10px 15px;
+  background-color: #fff;
+  text-decoration: none;
+}
+
+.page_top:hover {
+  background-color: #f2a0a1
+  ;
+}
+
+.footer {
+  width: 100%;
+  height: 70px;
+  background-color: #9d896c;
+  display: flex;
+  justify-content: left;
+}
+
+.Contactjump {
+  width: 300px;
+  height: 70px;
+  margin-left: 100px;
+  margin-top: 10px;
+  font-family: "Playfair Display", serif;
+  color: #fef4f4;
+}
+
+.social i {
+  display: inline-block;
+  margin-top: 20px;
+  margin-left: 50px;
+  font-size: 30px;
+  color: #fef4f4;
+}

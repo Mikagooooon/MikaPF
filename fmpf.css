@@ -1,0 +1,236 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background-image: url("PFpicture/PF背景.png");
+}
+
+a:link {
+  color: #543f32;
+}
+
+a:visited {
+  color: #543f32;
+}
+
+.Mikagon {
+  font-size: 35px;
+  font-family: "Playfair Display", serif;
+}
+
+.header {
+  width: 100%;
+  height: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.header-content {
+  width: 90%;
+  height: 70px;
+  margin-top: 80px;
+}
+
+.nav-list {
+  text-align: right;
+  margin: 0 auto;
+  font-family: "Playfair Display", serif;
+}
+
+.nav-list-item {
+  list-style: none;
+  display: inline-block;
+  margin: 0 20px;
+}
+
+.main-visual {
+  width: 100％;
+  height: 500px;
+}
+
+.main-visual-content {
+  margin: 0 0 0 auto;
+  width: 95%;
+  height: 500px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.main-pp {
+  width: 300px;
+  height: 400px;
+  display: flex;
+  align-items: center;
+  font-family: Times;
+  font-family: "Playfair Display", serif;
+}
+
+.plofile-img {
+  width: 700px;
+  height: 400px;
+  object-fit: cover;
+  border-radius: 10px;
+}
+
+.About {
+  width: 100%;
+  height: 600px;
+  padding: 20px;
+}
+
+.About-inner {
+  width: 250px;
+  height: 100px;
+  font-family: "Playfair Display", serif;
+}
+
+.About1 {
+  width: 240px;
+  height: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.About-content {
+  width: 95%;
+  height: 400px;
+  display: flex;
+  justify-content: center;
+}
+
+.About-img2 {
+  /* 後でimg classに変える */
+  width: 300px;
+  height: 400px;
+  margin-right: 50px;
+}
+
+.About-text {
+  width: 600px;
+  height: 300px;
+  margin-top: 100px;
+  font-family: "Klee One", cursive;
+}
+
+.Works {
+  width: 100%;
+  height: 600px;
+  font-family: "Playfair Display", serif;
+}
+
+.Works123 {
+  width: 240px;
+  height: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.Worksjump {
+  width: 300px;
+  height: 60px;
+  margin-left: 100px;
+}
+
+.Works-inner {
+  width: 100%px;
+  height: 500px;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.Works_1 {
+  width: 300px;
+  margin: 20px;
+}
+
+/* マウスオーバー時 */
+.btn_design:hover {
+  box-shadow: 0 4px 7px 0 rgba(0, 0, 0, 0.5);
+  transform: translateY(-5px);
+  cursor: pointer;
+}
+
+.Works_2 {
+  width: 300px;
+  margin: 20px;
+}
+
+.Works_3 {
+  width: 300px;
+  margin: 20px;
+}
+
+.Works-Sentence {
+  width: 100%;
+  height: 110px;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.Works_S {
+  width: 250px;
+  height: 100px;
+  margin-left: 45px;
+  margin-right: 45px;
+  font-family: "Klee One", cursive;
+}
+
+.category {
+  font-size: 13px;
+}
+
+.works_p {
+  font-size: 20px;
+}
+
+.page_top {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  padding: 10px 15px;
+  background-color: #fff;
+  text-decoration: none;
+}
+
+.page_top:hover {
+  background-color: #f2a0a1;
+}
+
+.footer {
+  width: 100%;
+  height: 70px;
+  background-color: #9d896c;
+  display: flex;
+  justify-content: left;
+}
+
+.Contactjump {
+  width: 300px;
+  height: 70px;
+  margin-left: 100px;
+  margin-top: 10px;
+  font-family: "Playfair Display", serif;
+  color: #fef4f4;
+}
+
+.social i {
+  display: inline-block;
+  margin-top: 20px;
+  margin-left: 50px;
+  font-size: 30px;
+  color: #fef4f4;
+}
